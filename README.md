@@ -9,4 +9,4 @@
 - lodash
 
 ## 效果图
-![堆糖](https://qujianba-hd2.oss-cn-shanghai.aliyuncs.com/public/images/github/duitangshili.gif)
+![堆糖](https://qujianba-hd2.oss-cn-shanghai.aliyuncs.com/public/images/github/duitangshifan.gif)
