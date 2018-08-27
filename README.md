@@ -7,3 +7,6 @@
 - Node实现api接口
 - antd
 - lodash
+
+## 效果图
+![堆糖](https://qujianba-hd2.oss-cn-shanghai.aliyuncs.com/public/images/github/duitang.gif)
