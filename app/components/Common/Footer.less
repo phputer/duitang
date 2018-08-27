@@ -1,0 +1,76 @@
+*, *::before, *::after {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.footer {
+  height: 260px;  
+  overflow: hidden;
+
+  background-color: #555;
+  .dt-wrap {
+    box-sizing:inherit; 
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .dt-span-list {
+      margin-top: 33px;
+      width: 1222px;
+      .dt-footer-span {
+        float: left;
+        width: 90px;
+        height: 170px;
+        padding: 0 84px;
+        .dt-footer-span-inner {
+          width: 100px;
+          .dt-footer-span-title {
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 16px;
+          }
+          .dt-footer-span-items {
+            width: 100%;
+            a {
+              float: left;
+              margin-bottom: 12px;
+              width: 100px;
+              font-size: 14px;
+              color: #c6c6c6;
+              opacity: .8;
+              text-align: center;
+            }
+          }
+        }
+        p {
+          font-size: 14px;
+          color: #fff;
+          line-height: 20px;
+          margin-bottom: 0;
+        }
+      }
+      .dt-footer-first {
+        width: 179px;
+        border-right: 1px solid #aaa;
+        .dt-footer-span-inner {
+          width: 179px;
+          .dt-footer-span-title {
+            margin-bottom: 0;
+            line-height: 20px;
+          }
+          .dt-tcode {
+            margin: 8px auto;
+            padding: 3px;
+            width: 90px;
+            height: 90px;
+            background-color: #fff;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,310 @@
+.content {
+    a {
+        color: #666;
+    }
+    overflow: hidden;
+    margin-bottom: 60px;
+    .feeds-tab {
+        width: 160px;
+        float: left;
+        ul {
+            position: relative;
+            list-style: none;
+            li {
+                padding: 18px 23px;
+                position: relative;
+                font-size: 14px;
+                cursor: pointer;
+               vertical-align: middle; 
+               span {
+                   color: #ff7e7e;
+                   font-size: 12px;
+                    position: relative; 
+                    float: right;
+               }
+               &.cur {
+                   color: #ff7e7e;
+                   background: #faeded;
+               }
+               &.cur:after {
+                    content: "";
+                    position: absolute;
+                    background-image: url(https://b-ssl.duitang.com/uploads/item/201806/21/20180621102454_Ku2eX.png);
+                    left: 10px;
+                    top: 18px;
+                    width: 3px;
+                    height: 18px;
+               }
+            }
+        }
+    }
+    .item-list {
+        float: left;
+        width: 600px;
+        overflow: hidden;
+
+        .item-container {
+            width: 600px;
+            overflow: hidden;
+            border: 1px solid #E0E0E0;
+            margin-bottom: 20px;
+            
+            .feeds-item {
+                padding: 20px;
+                .user-info {
+                    display: flex;
+                    height: 50px;
+                    .avatar {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                    }
+                    .user-desc {
+                        flex:1;
+                        margin-left: 8px;
+                        .username {
+                            line-height: 25px;
+                            font-size: 18px;
+                        }
+                        .item-class {
+                            color: #aaa;
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+                .dynamic-album-desc {
+                    max-width: 558px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #444;
+                    margin-top: 16px;
+                    margin-bottom: 10px;
+                }
+                .item-article {
+                    width: 360px;
+                    position: relative;
+                    display: inline-block;
+                    .prev-user{
+                        position: absolute;
+                        top: 12px;
+                        left: 12px;
+                        height: 26px;
+                        display: flex;
+                        border-radius: 30px;
+                        background-color: rgba(0, 0, 0, .4);
+                        img {
+                            width: 24px;
+                            height: 24px;
+                            margin-right: 6px;
+                            border-radius: 50%;
+                            border: 1px solid #fff;
+                        }
+                        span {
+                        margin-right: 8px;
+                        font-size: 10px;
+                        color: #fff;
+                        line-height: 26px; 
+                        }
+                    }
+                    img {
+                        width: 360px;
+                        height: 204px;
+                        display: block;
+                        border-radius: 10px;
+                    }
+                }
+                .item-img-container {
+                    width: 360px;
+                    a {
+                        margin-right: 9px;
+                        margin-bottom: 9px;
+                        &:nth-child(3n) {
+                            margin-right: 0px;
+                        }
+                        img {
+                            width: 114px;
+                            height: 114px;
+                        }
+                    }
+                }
+            }
+            .action{
+                border: none;
+                border-top: 1px solid #e0e0e0;
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    .one-action {
+                        float: left;
+                        margin: 10px 0;
+                        height: 44px;
+                        border-right: 1px solid #e0e0e0;
+                        text-align: center;
+                        cursor: pointer;
+                        flex:1;
+                        display: flex;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        &:last-child{
+                            border:none;
+                        }
+                        img {
+                            width: 24px;
+                            height: 24px;
+                            display: block;
+                            margin-right: 12px;
+                        }
+                        span {
+                            color:#666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .view-more {
+        display: block;
+        margin-top: 20px;
+        border: 1px solid #ff7e7e;
+        text-align: center;
+        line-height: 64px;
+        position: relative;
+        color: #ff7e7e;
+        font-size: 16px;
+        cursor: pointer;
+        &::after {
+            content: "";
+            background-image: url(https://b-ssl.duitang.com/uploads/item/201805/09/20180509145151_U8L3m.png); 
+            background-size: 11px 7px;
+            width: 11px;
+            height: 7px;
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -4px;
+            margin-left: 38px;
+        }
+    }
+    .hidden {
+        display: none;
+    }
+    .right-area {
+        float: right;
+        width: 220px;
+        margin-left: 20px;  
+
+        .daren {
+            margin-bottom: 20px;
+            position: relative;
+            width: 220px;
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            color: #444;
+            overflow: hidden;
+            h3 {
+                padding:10px 14px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .change-daren {
+                position: absolute;
+                top: 14px;
+                right: 14px;
+                font-size: 12px;
+                color: #ff7e7e;
+                cursor: pointer;
+            }
+            .daren-list {
+                padding: 14px;
+                border-top: 1px solid #e0e0e0;
+                .per-daren {
+                    list-style: none;
+                    margin-bottom: 14px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .daren-img {
+                        position: relative;
+                        margin-right: 6px;
+                        .daren-avatar {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    .daren-desc {
+                        .title {
+                            display: inline-block;
+                            width: 100px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            color: #444;
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+                        .daren-shanchang {
+                            width: 100px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            margin-top: 2px;
+                            font-size: 10px;
+                            color: #777;
+                            b {
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .follow {
+                        display: inline-block;
+                        width: 40px;
+                        height: 18px;
+                        background-color: #ff7e7e;
+                        border: 1px solid #ff7e7e;
+                        color: #fff;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 18px;
+                    }
+                }
+            }
+            .daren-more {
+                display: block;
+                padding: 10px 0px;
+                text-align: center;
+                font-size: 12px;
+                color: #ff7e7e;
+                border-top: 1px solid #e0e0e0;
+                i {
+                    display: inline-block;
+                    background-repeat: no-repeat;
+                    margin-left: 5px;
+                    width: 10px;
+                    height: 10px;
+                    background-image: url(https://b-ssl.duitang.com/uploads/item/201806/07/20180607114112_wYcFn.png);
+                    background-size: contain;
+                }
+            }
+        }   
+        .qrcode {
+            margin-left: 10px;
+            width: 200px;
+            height: 200px;
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        } 
+    }
+    p {
+        margin-bottom: 0;
+    }
+}

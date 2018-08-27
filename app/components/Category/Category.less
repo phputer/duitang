@@ -1,0 +1,272 @@
+.content-cate {
+    width: 1000px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    .cate-list {
+        width: 100%;
+        margin: 0 auto;
+        .dt-cat {
+            width: 998px;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            background-color: #fff;
+            .dt-cat-inner {
+                width: 964px;
+                padding: 18px;
+                .dt-cat-title {
+                    display: block;
+                    margin-bottom: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #444;
+                }
+                .dt-cat-content {
+                    width: 975px;
+                    display: flex;
+                    .dt-sub-cat {
+                        width: 33.33%;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        border-left: 1px solid #e0e0e0;
+                        &:nth-child(1) {
+                            border: none;
+                        }
+                        .dt-sub-cat-name {
+                            height: 20px;
+                            line-height: 20px;
+                            padding-left: 24px;
+                            font-size: 14px;
+                            color: #b8b8b8;
+                        }
+                        .dt-tag-list {
+                            width: 288px;
+                            height: 110px;
+                            padding-top: 10px;
+                            padding-right: 10px;
+                            padding-left: 24px;
+                            a {
+                                display: inline-block;
+                                width: 25%;
+                                padding: 8px 0;
+                                font-size: 16px;
+                                line-height: 22px;
+                                color: #444;
+                                border-radius: 4px;
+                                text-overflow: ellipsis;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .menulist {
+        margin-top: 13px;
+        padding-bottom: 13px;
+        margin-bottom: 0px;
+        color: #666;
+        .catnav {
+            display: inline;
+            span {
+                color: #777;
+                line-height: 20px;
+                font-size: 14px;
+            }
+            i {
+                margin: 0 5px;
+            }
+            .dt-tag-link {
+                color: #ff7e7e;
+                line-height: 20px;
+                font-size: 14px;
+            }
+        }
+        .onlypro {
+            float: right;
+            width: 100px;
+            height: 32px;;
+            border: 1px solid #ff7e7e;
+            text-align: center;
+            color: #ff7e7e;
+            cursor: pointer;
+            span {
+                line-height: 32px;
+                font-size: 14px;
+                i {
+                    display: inline-block;
+                    width: 26px;
+                    height: 26px;
+                    vertical-align: middle;
+                    background-image: url(https://b-ssl.duitang.com/uploads/item/201806/19/20180619150001_cdwFj.png);
+                    background-repeat: no-repeat;
+                    background-position: -74px -57px;
+                }
+            }
+        }
+    }
+    .item-container {
+        margin-top: 12px;
+        width: 1000px;
+        overflow:hidden;
+        column-width: 238px;
+        column-count:4;
+        column-gap: 13px;
+        break-inside: avoid;
+        .per-item {
+            border: 1px solid #dddddd;
+            width: 238px;
+            height:100%;
+            overflow: auto;
+            margin-bottom: 20px;
+
+            .item-top {
+             
+                img {
+                    width: 100%;
+                    max-width: 240px;
+                    display: block;
+                }
+            }
+            .wooscr{
+                padding: 14px 0;
+                .g {
+                    padding: 0 14px;
+                    overflow: hidden;
+                    margin: 0;
+                    font-size: 14px;
+                    color: #444;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                }
+                .emotion {
+                    margin-top: 4px;
+                    padding: 0 14px;
+                    overflow: hidden;
+                    background-color: #fff;
+                    border-bottom: none;
+                    div {
+                        display: inline-block;
+                        margin-right: 24px;
+                        span {
+                            font-size: 13px;
+                            color: #a0a0a0;
+                            line-height: 20px;
+                        }
+                        i {
+                            display: inline-block;
+                            margin-right: 2px;
+                            width: 20px;
+                            height: 20px;
+                            vertical-align: sub;
+                            background-image: url(https://b-ssl.duitang.com/uploads/item/201806/19/20180619150001_cdwFj.png);
+                            background-repeat: no-repeat;
+                        }
+                        
+                    }
+                    .like i {
+                        background-position: -142px -13px;
+                    }
+                    .coll i {
+                        background-position: -173px -13px;
+                    }
+                }
+                ul {
+                    zoom: 1;
+                    display: block;
+                    list-style: none;
+                    line-height: 1.5;
+                    font-size: 12px;
+                    li {
+                        a {
+                            
+                            margin-bottom: 2px;
+                            color: #444;
+                            img {
+                                float: left;
+                                margin: 0 8px 0 0;
+                                border-radius: 26px;
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                        p {
+                            word-wrap: break-word;
+                            word-break: break-all;
+                            overflow: hidden;
+                
+                        }
+                    }
+                    li.f {
+                        padding: 10px 14px 0 14px;
+                        border: none;
+                    }
+                    .comment-wrap {
+                        margin-top: 14px;
+                        padding-left: 14px;
+                        border-top: 1px solid #e0e0e0;
+                        .blog-comment {
+                            display: flex;
+                            align-items: center;
+                            padding-bottom: 0;
+                            border: none;
+                            vertical-align: middle;
+                            padding: 10px 0;
+                            h4 {
+                                margin-right: 6px;
+                                font-weight: 600;
+                                color: #444;
+                                font-size: 14px;
+                            }
+                            span {
+                                font-size: 12px;
+                                color: #aaa;
+                                i {
+                                    font-style: normal;
+                                    font-size: 10px;
+                                    color: #bbb;
+                                    margin-left: 4px;
+                                }
+                            }
+                        }
+                        .comment-item {
+                            padding-right: 14px;
+                            zoom: 1;
+                            padding: 10px 0;
+                            border-top: 1px solid #e0e0e0;
+                            a {
+                                margin-bottom: 2px;
+                                color: #444;
+                            }
+                            p {
+                                word-wrap: break-word;
+                                word-break: break-all;
+                                overflow: hidden;
+                                span {
+                                    display: block;
+                                    padding: 6px;
+                                    color: #777;
+                                    background-color: #fafafa;
+                                }
+                            }
+                            &:nth-child(2) {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .loadmore {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        position: relative;
+        top: 50%;
+        height: 40px;
+        text-align: center;
+    }
+    
+}
